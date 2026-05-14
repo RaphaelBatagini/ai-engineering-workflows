@@ -1,0 +1,17 @@
+# ai-engineering-workflows codeowners
+
+# Default: maintainers review all changes
+* @maintainers
+
+# Guardrails and standards require additional scrutiny — changes affect all workflows
+/guardrails/ @maintainers @engineering-leads
+/docs/standards/ @maintainers @engineering-leads
+
+# Workflow and prompt changes require at least one practitioner who has used the workflow
+/workflows/engineering/ @maintainers
+/workflows/operations/ @maintainers
+/prompts/engineering/ @maintainers
+/prompts/operations/ @maintainers
+
+# Templates affect all future contributions
+/templates/ @maintainers @engineering-leads
