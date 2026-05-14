@@ -18,13 +18,14 @@ It is not a prompt collection. It is not an AI capabilities showcase. It is an e
 - Operational examples using Claude Code, MCP-enabled toolchains, and GitHub/Jira/DataDog integrations
 - A reference architecture for teams that want to adopt AI systematically, not opportunistically
 
-## What this is not
+## Core Design Principles
 
-- A collection of "useful prompts" with no process context
-- An argument that AI replaces engineering judgment
-- A tutorial for engineers learning what LLMs can do
-- A showcase of AI capabilities or benchmark results
-- Hype-driven content about AI productivity multipliers
+- AI outputs must be reviewable
+- Workflows should reduce cognitive overhead
+- Engineering judgment remains human-owned
+- Prompts are operational specifications
+- Validation gates are mandatory
+- Consistency is more valuable than novelty
 
 ---
 
